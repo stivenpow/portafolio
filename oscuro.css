@@ -1,0 +1,30 @@
+:root {
+  --ink: #edf2e8;
+  --muted: #aab7a6;
+  --lime: #c9ed72;
+  --cream: #171e1a;
+  --line: #354238;
+}
+
+body { background: #101713; }
+.header nav { color: #b6c2b2; }
+.header nav a:hover, .text-link:hover { color: var(--lime); }
+.nav-contact { border-color: #465548; }
+.availability { border-color: #40513e; color: #b8c9ae; }
+.hero-bottom p, .hero-index, .footer p, .footer small { color: #a1afa0; }
+.hero-bottom strong { color: #e0eadd; }
+.avatars span { border-color: #101713; color: #26342a; }
+.primary, .dark { background: var(--lime); color: #172018; }
+.ticker { background: #243329; color: #edf5df; }
+.skills-section { background: #18221b; }
+.skill-card { background: #222e25; }
+.card-number, .stats small { color: #b0c0aa; }
+.tags span { background: #344537; color: #d9e9d1; }
+.contact { background: #273b2b; }
+.contact .kicker { color: #c9ed72; }
+.contact h2 em { color: #c9ed72; }
+.contact-inner > div:first-child > p:not(.kicker):not(.whatsapp-note),
+.whatsapp-note { color: #c0d1ba; }
+.contact-star { color: #38553b; }
+.floating-tag { color: #17201a; }
+.button:hover { filter: brightness(1.06); }
